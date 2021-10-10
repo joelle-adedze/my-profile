@@ -1,0 +1,109 @@
+/* Color and Font */
+body{
+	background:#F7F4F3;
+	color:#402A26;
+	font-family:'Lora', serif;
+	font-size:16px;
+	font-weight:lighter;
+}
+h1,h2,h3 {
+	font-family:'Roboto', sans-serif;
+}
+h1{
+	color:#AB6D23;
+	font-size:32px;
+	font-weight:900;
+}
+h2{
+	color:#57731C;
+	font-size:18px;
+	font-weight:600;
+}
+a{
+	font-family:'Roboto', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color:#C36839;
+}
+a:hover {
+	color:rosybrown;
+}
+
+
+/* Custom design with class */
+
+.container{
+	width: 800px;
+	margin: 50px auto;
+}
+@media (max-width: 760px) {
+   .container {
+   	width: 600px ;
+   }
+}
+@media (max-width: 500px) {
+   .container {
+   	width: 400px ;
+   }
+}
+.card-white{
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+.list-inline i{
+	font-size: 50px;
+	color:#AB6D23;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color:#ab6d2375;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
